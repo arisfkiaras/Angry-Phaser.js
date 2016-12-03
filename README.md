@@ -6,7 +6,7 @@ Angry-Birds lookalike with phaser.js
 Use however you like.<br>
 Use at your own risk.<br>**
 <br>
-####Live [Demo](http://angry.frouk.me/).
+####Live [Demo](http://game1.9webm.com/).
 <br>
 #####How to Install:
 ```
