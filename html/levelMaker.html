@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html style="color: white;">
+	<head>
+	<style type="text/css">
+		body{
+			background: #000000;
+			padding:0px;
+			margin:0px;
+		}
+		<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+</style>
+	</style>
+	<script src="lib/phaser.min.js"></script>
+    <script src = "levelReader.js"></script>
+
+     <script src = "levelMaker.js"></script>
+	</head>
+	<body>
+        <div id="content"></div>
+		<form id="forma" style="color:white;">
+			Bullets: <input id="bulletsVal" type="number" name="bullets" value="4"><br>
+			Background: <input id="backVal" type="text" name="background" value="background.jpg"><br>
+		</form>
+		<button onclick="setData()" >Apply</button>
+
+		<div id="palete" style="">
+			<input type="image" src="assets/image/target.png" alt="Submit" onclick="addStructure(100, 100, 'hontros');">
+			<input type="image" src="assets/image/leftRight.png" alt="Submit" onclick="addStructure(100, 100, 'ksiloLR');">
+			<input type="image" src="assets/image/topBot.png" alt="Submit" onclick="addStructure(100, 100, 'ksiloTD');">
+		</div>
+		<button onclick="saveMap()">Save Map</button>
+		<br>
+		Load:<input type="file" id="fileinput" multiple alt="r"/>
+
+	</body>
+</html>

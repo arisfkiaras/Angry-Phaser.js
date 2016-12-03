@@ -1,0 +1,24 @@
+{
+    "info":{"id":"sample", "name":"Sample Map"},
+    "assets":{"backgroung_img":"background.jpg","backgroung_sound":"sound"},
+    "bullets":["normal","normal"],
+    "structure":{
+        "ksiloTD":[
+            [800,565],
+            [700,565],
+            [750,455]
+        ],
+        "ksiloLR":[
+            [700,520],
+            [800,520],
+            [750,500],
+            [750,410]
+        ]
+    },
+    "targets":{
+        "hontros":[
+            [750,365],
+            [750,565]
+        ]
+    }
+}

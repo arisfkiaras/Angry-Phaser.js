@@ -1,0 +1,8 @@
+{
+  "name" : "CykaBlyet",
+  "version" : "0.0.1",
+  "dependencies" : {
+    "connect" : "3.4.1",
+    "serve-static" : "1.10.2"
+  }
+}

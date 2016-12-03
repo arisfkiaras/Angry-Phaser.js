@@ -1,0 +1,8 @@
+{
+    "betaMapPack":[
+        {"id":"sample","name":"Sample Map","file":"sample.map","preview":"sample.png"},
+        {"id":"sample2","name":"Sample Map 2","file":"sample2.map","preview":"sample2.png"},
+        {"id":"sample3","name":"Sample Map 3","file":"sample3.map","preview":"sample3.png"}
+
+    ]
+}

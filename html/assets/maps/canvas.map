@@ -1,0 +1,18 @@
+{
+    "info":{"id":"canvas", "name":"Sample Map"},
+    "assets":{"backgroung_img":"background.jpg","backgroung_sound":"sound"},
+    "bullets":["normal","normal"],
+    "structure":{
+        "ksiloTD":[
+
+        ],
+        "ksiloLR":[
+
+        ]
+    },
+    "targets":{
+        "hontros":[
+
+        ]
+    }
+}
