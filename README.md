@@ -10,7 +10,7 @@ Use at your own risk.<br>**
 <br>
 #####How to Install:
 ```
-git clone https://github.com/Frouk/Angry-Phaser.js.git
+git clone https://github.com/arisfkiaras/Angry-Phaser.js.git
 cd Angry-Phaser.js
 npm install
 ```
